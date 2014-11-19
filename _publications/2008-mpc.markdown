@@ -1,0 +1,6 @@
+---
+layout:  publication
+title:   "Asynchronous Exceptions as an Effect"
+authors: "William L. Harrison, Gerard Allwein, Andy Gill, and Adam Procter"
+where:   "Proceedings of the Ninth International Conference on Mathematics of Program Construction (MPC'08), Marseille, July 2008"
+---

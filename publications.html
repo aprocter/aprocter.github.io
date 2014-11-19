@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Publications"
+permalink: /publications/
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Publications</h1>
+
+  <ul class="pub-list">
+    {% for pub in site.publications reversed %}
+      <li class="pub-item">
+        <h2 class="pub-title"><a class="pub-link" href="{{ pub.url | prepend: site.baseurl }}">{{ pub.title }}</a></h2>
+        <h3 class="pub-bib"><span class="pub-authors">{{ pub.authors }}.</span> <span class="pub-where">{{ pub.where }}.</span></h3>
+        <div class="pub-abstract">{{ pub.abstract }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

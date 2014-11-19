@@ -1,0 +1,6 @@
+---
+layout:  publication
+title:   "Towards Semantics-directed System Design and Synthesis"
+authors: "William L. Harrison, Benjamin Schulz, Adam Procter, Andrew Lukefahr, and Gerard Allwein"
+where:   "Proceedings of the 2011 International Conference on Engineering of Reconfigurable Systems and Algorithms (ERSA'11), Las Vegas, July 2011. Invited paper"
+---

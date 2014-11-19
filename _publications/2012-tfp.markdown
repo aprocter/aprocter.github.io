@@ -1,0 +1,6 @@
+---
+layout:  publication
+title:   "The Design of a Practical Theorem Prover for a Lazy Functional Language"
+authors: "Adam Procter, William L. Harrison, and Aaron Stump"
+where:   "Proceedings of the 2012 Symposium on Trends in Functional Programming (TFP'12), St Andrews, UK, June 2012"
+---

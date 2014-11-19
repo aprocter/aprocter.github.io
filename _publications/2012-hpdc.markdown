@@ -1,0 +1,6 @@
+---
+layout:  publication
+title:   "A Virtual Memory Based Runtime to Support Multitenancy in Clusters with Many-cores"
+authors: "Michela Becchi, Kittisak Sajjapongse, Ian Graves, Adam Procter, Vignesh Ravi, and Srimat Chakradhar"
+where:   "Proceedings of the 21st International Symposium on High-Performance Parallel and Distributed Computing (HPDC'12), Delft, June 2012. <em>(Best paper award.)</em>"
+---
