@@ -169,7 +169,7 @@
     font-size: 20px;
 }
 
-.post-list {
+.post-list, .pub-list {
     margin-left: 0;
     list-style: none;
 
@@ -186,6 +186,20 @@
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+.pub-item > .pub-title {
+   font-size: 18;
+}
+
+.pub-item > .pub-bib {
+    font-size: 12pt;
+    margin-left: 20pt;
+}
+
+.pub-item > .pub-abstract {
+    margin-left: 20pt;
+    text-align: justify;
 }
 
 
