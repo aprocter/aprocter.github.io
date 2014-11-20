@@ -13,6 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
  Academic website of Adam Procter, Ph.D.
 baseurl: ""
 url: "http://test.adamprocter.com" # the base hostname & protocol for your site
+timezone: America/Chicago
 
 # Build settings
 markdown: kramdown
