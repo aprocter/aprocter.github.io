@@ -1,11 +1,18 @@
 # Site settings
+biophoto: "images/bio-photo.jpg"
+biotext: >
+ I'm a postdoctoral researcher at the
+ <a href="http://www.missouri.edu/">University of Missouri</a>
+ <a href="http://chaco.missouri.edu/">Center for High Assurance Computing</a>.
+ My research interests include programming language design, semantics, and
+ implementation, formal methods, and the application of all of the above to
+ producing verifiably secure hardware and software systems.
 title: Adam Procter, Ph.D.
-email: amp269@gmail.com
+email: adamprocter@mail.missouri.edu
 description: > # this means to ignore newlines until "baseurl:"
- So I figured I would move my website to GitHub Pages.
+ Academic website of Adam Procter, Ph.D.
 baseurl: ""
 url: "http://test.adamprocter.com" # the base hostname & protocol for your site
-github_username:  aprocter
 
 # Build settings
 markdown: kramdown
