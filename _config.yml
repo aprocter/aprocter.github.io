@@ -12,7 +12,7 @@ email: adamprocter@mail.missouri.edu
 description: > # this means to ignore newlines until "baseurl:"
  Academic website of Adam Procter, Ph.D.
 baseurl: ""
-url: "http://test.adamprocter.com" # the base hostname & protocol for your site
+url: "http://adamprocter.com" # the base hostname & protocol for your site
 timezone: America/Chicago
 
 # Build settings
