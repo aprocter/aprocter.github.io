@@ -292,12 +292,13 @@
 
   li {
     display: inline-block;
-    list-style-type: circle;
+    margin-right: 1ex;
   }
   li:before {
-    content: '\00a0\2014\00a0\00a0';
+    content: '\d83d\dd17';
+    margin-right: 4px;
   }
-  li:first-child:before {
-    content: '';
-  }
+  //li:first-child:before {
+  //  content: '';
+  //}
 }
