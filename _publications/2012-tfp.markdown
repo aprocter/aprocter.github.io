@@ -3,4 +3,19 @@ layout:  publication
 title:   "The Design of a Practical Theorem Prover for a Lazy Functional Language"
 authors: "Adam Procter, William L. Harrison, and Aaron Stump"
 where:   "Proceedings of the 2012 Symposium on Trends in Functional Programming (TFP'12), St Andrews, UK, June 2012"
+abstract: >
+ Pure, lazy functional languages like Haskell provide a sound basis for formal
+ reasoning about programs in an equational style. In practice, however,
+ equational reasoning about correctness proofs is underutilized. In the context
+ of Haskell, we suggest that part of the reason for this is the lack of
+ accessible tools for machine-checked equational reasoning. This paper outlines
+ the design of MProver, a proof checker which fills just that niche. MProver
+ features first-class support for reasoning about potentially undefined
+ computations (particularly important in a lazy setting), and an extended
+ notion of Haskell-like type classes, enabling a highly modular style of
+ program verification that closely follows familiar functional programming
+ idioms.
+download-links:
+ - text: Springer
+   url: http://link.springer.com/chapter/10.1007/978-3-642-40447-4_8
 ---

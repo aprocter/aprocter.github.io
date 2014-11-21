@@ -3,4 +3,17 @@ layout:  publication
 title:   "Formal semantics of heterogeneous CUDA-C: A modular approach with applications"
 authors: "Chris Hathhorn, Michela Becchi, William L. Harrison and Adam Procter"
 where:   "Proceedings of the 2012 Systems Software Verification Conference (SSV'12), Sydney, November 2012"
+abstract: >
+ We extend an off-the-shelf, executable formal semantics of C (Ellison and
+ Roșu's &#x1d542; Framework semantics) with the core features of CUDA-C. The hybrid
+ CPU/GPU computation model of CUDA-C presents challenges not just for
+ programmers, but also for practitioners of formal methods. Our formal
+ semantics helps expose and clarify these issues. We demonstrate the usefulness
+ of our semantics by generating a tool from it capable of detecting some race
+ conditions and deadlocks in CUDA-C programs. We discuss limitations of our
+ model and argue that its extensibility can easily enable a wider range of
+ verification tasks.
+download-links:
+ - text: arXiv
+   url: http://arxiv.org/abs/1211.6193
 ---

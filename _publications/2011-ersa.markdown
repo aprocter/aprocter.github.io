@@ -3,4 +3,15 @@ layout:  publication
 title:   "Towards Semantics-directed System Design and Synthesis"
 authors: "William L. Harrison, Benjamin Schulz, Adam Procter, Andrew Lukefahr, and Gerard Allwein"
 where:   "Proceedings of the 2011 International Conference on Engineering of Reconfigurable Systems and Algorithms (ERSA'11), Las Vegas, July 2011. Invited paper"
+abstract: >
+ High assurance systems have been defined as systems &ldquo;you would bet your
+ life on.&rdquo; This article discusses the application of a form of functional
+ programming&mdash;what we call &ldquo;monadic programming&rdquo;&mdash;to the
+ generation of high assurance and secure systems. Monadic programming languages
+ leverage algebraic structures from denotational semantics and functional
+ programming&mdash;monads&mdash;as a flexible, modular organizing principle for
+ secure system design and implementation. Monadic programming languages are
+ domain-specific functional languages that are both sufficiently expressive to
+ express essential system behaviors and semantically straightforward to support
+ formal verification.  
 ---

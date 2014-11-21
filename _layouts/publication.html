@@ -6,21 +6,21 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="pub-bib">{{ page.authors }}. {{ page.where }}.</p>
-  </header>
 
-  {% if page.abstract %}
-  <div class="pub-abstract">
-    <strong>Abstract.</strong> {{ page.abstract }}
-  </div>
-  {% endif %}
+    {% if page.abstract %}
+    <div class="pub-abstract">
+      <strong>Abstract.</strong> {{ page.abstract }}
+    </div>
+    {% endif %}
 
-  {% if page.download-links %}
-  <ul class="pub-downloads">
-  {% for dl in page.download-links %}
+    {% if page.download-links %}
+    <ul class="pub-downloads">
+    {% for dl in page.download-links %}
       <li><a class="pub-download" href="{{ dl.url }}">{{ dl.text }}</a></li>
-  {% endfor %}
-  </ul>
-  {% endif %}
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </header>
 
   <article class="post-content">
     {{ content }}

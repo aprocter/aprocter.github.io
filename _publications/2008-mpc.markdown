@@ -3,4 +3,17 @@ layout:  publication
 title:   "Asynchronous Exceptions as an Effect"
 authors: "William L. Harrison, Gerard Allwein, Andy Gill, and Adam Procter"
 where:   "Proceedings of the Ninth International Conference on Mathematics of Program Construction (MPC'08), Marseille, July 2008"
+abstract: >
+ Asynchronous interrupts abound in computing systems, yet they remain a thorny
+ concept for both programming and verification practice. The ubiquity of
+ interrupts underscores the importance of developing programming models to aid
+ the development and verification of interrupt-driven programs. The research
+ reported here recognizes asynchronous interrupts as a computational effect and
+ encapsulates them as a building block in modular monadic semantics. The
+ resulting modular semantic model can serve as both a guide for functional
+ programming with interrupts and as a formal basis for reasoning about
+ interrupt-driven computation as well.
+download-links:
+  - text: Springer
+    url: "http://link.springer.com/chapter/10.1007/978-3-540-70594-9_10"
 ---
