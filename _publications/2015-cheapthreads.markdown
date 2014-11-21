@@ -14,4 +14,11 @@ abstract: >
   operating system kernel with process forking, preemption, message passing,
   and synchronization constructs in the pure functional programming language
   Haskell.
+download-links:
+  - text: Preprint
+    url:  http://ungamunga/
+  - text: Broprint
+    url:  http://ungamunga/
+  - text: Ugprint
+    url:  http://ungamunga/
 ---
