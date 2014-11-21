@@ -1,0 +1,11 @@
+{% assign share_url = page.url | prepend: site.baseurl | prepend: site.url %}
+{% assign img_base  = "/images" %}
+
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}"&t={{ page.title }}" target="_blank"><img src="{{ img_base }}/flat_web_icon_set/color/Facebook.png"></a></li>
+	<li><a href="https://twitter.com/intent/tweet?source={{ share_url }}&text={{ page.title }}:%20{{ share_url }}&via=amp269" target="_blank" title="Tweet"><img src="{{ img_base }}/flat_web_icon_set/color/Twitter.png"></a></li>
+	<li><a href="https://plus.google.com/share?url={{ share_url }}" target="_blank" title="Share on Google+"><img src="{{ img_base }}/flat_web_icon_set/color/Google+.png"></a></li>
+	<li><a href="http://www.reddit.com/submit?url={{ share_url }}&title={{ page.title }}" target="_blank" title="Submit to Reddit"><img src="{{ img_base }}/flat_web_icon_set/color/Reddit.png"></a></li>
+	<li><a href="http://www.linkedin.com/shareArticle?mini=true&url={{ share_url }}&title={{ page.title }}&source={{ share_url }}" target="_blank" title="Share on LinkedIn"><img src="{{ img_base }}/flat_web_icon_set/color/LinkedIn.png"></a></li>
+	<li><a href="mailto:?subject={{ page.title }}&body={{ share_url }}" target="_blank" title="Email"><img src="{{ img_base }}/flat_web_icon_set/color/Email.png"></a></li>
+</ul>
