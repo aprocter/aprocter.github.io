@@ -1,6 +1,7 @@
 ---
 layout:  publication
 title:   "Model-driven Engineering from Modular Monadic Semantics: Implementation Techniques Targeting Hardware and Software"
+date:    2014-11-22 15:16:41 -0600
 authors: "William L. Harrison, Adam M. Procter, Jason Agron, Garrin Kimmell, and Gerard Allwein"
 where:   "Proceedings of the IFIP Working Conference on Domain Specific Languages (DSLWC), Oxford, July 2009"
 abstract: >

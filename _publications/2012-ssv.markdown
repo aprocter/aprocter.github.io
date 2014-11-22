@@ -1,6 +1,7 @@
 ---
 layout:  publication
 title:   "Formal semantics of heterogeneous CUDA-C: A modular approach with applications"
+date:    2014-11-22 15:16:41 -0600
 authors: "Chris Hathhorn, Michela Becchi, William L. Harrison and Adam Procter"
 where:   "Proceedings of the 2012 Systems Software Verification Conference (SSV'12), Sydney, November 2012"
 abstract: >

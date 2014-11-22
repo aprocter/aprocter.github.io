@@ -1,6 +1,7 @@
 ---
 layout:  publication
 title:   "Cheap (But Functional) Threads"
+date:    2014-11-22 15:16:41 -0600
 authors: "William L. Harrison and Adam Procter"
 where:   "Accepted for publication in <em>Higher-Order and Symbolic Computation</em>"
 abstract: >
