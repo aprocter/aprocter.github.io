@@ -17,4 +17,5 @@ abstract: >
 download-links:
   - text: ACM Digital Library
     url:  http://dl.acm.org/citation.cfm?doid=1543134.1411300
+blank: true
 ---

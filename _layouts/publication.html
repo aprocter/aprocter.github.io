@@ -22,10 +22,13 @@ layout: default
     {% endif %}
   </header>
 
+  {% if page.blank %}
+  {% else %}
   <hr class="pub-content-separator" />
   <article class="post-content">
     {{ content }}
   </article>
+  {% endif %}
 
 </div>
 

@@ -19,4 +19,5 @@ abstract: >
 download-links:
  - text: IEEE
    url: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6718410
+blank: true
 ---

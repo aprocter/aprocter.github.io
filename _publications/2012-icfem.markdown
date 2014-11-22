@@ -16,4 +16,5 @@ abstract: >
 download-links:
  - text: Springer
    url: http://link.springer.com/chapter/10.1007/978-3-642-34281-3_15
+blank: true
 ---
