@@ -3,6 +3,7 @@ layout: publication
 title: "Semantics-directed Machine Architecture in ReWire"
 authors: "Adam Procter, William L. Harrison, Ian Graves, Michela Becchi, and Gerard Allwein"
 where: "Proceedings of the 2013 International Conference on Field-Programmable Technology (ICFPT'13), Kyoto, December 2013"
+permalink: /icfpt13/
 abstract: >
  The functional programming community has developed a number of powerful
  abstractions for dealing with diverse programming models in a modular way.
@@ -19,5 +20,8 @@ abstract: >
 download-links:
  - text: IEEE
    url: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6718410
-blank: true
 ---
+# Example Programs
+* [Fibonacci Sequence](Fibonacci.hs)
+* [Simple CPU](CPU.hs)
+* [PicoBlaze](PicoBlaze.hs)
