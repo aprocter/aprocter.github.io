@@ -11,6 +11,9 @@
     $('.pub-download').on('click',function() {
       ga('send','event','publication','download-click',$(this).attr('href'));
     });
+    $('.share-link').on('click',function() {
+      ga('send','event','page','share-link',$(this).attr('href'));
+    });
   });
 
 </script>
