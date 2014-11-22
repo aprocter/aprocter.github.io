@@ -7,4 +7,10 @@
   ga('create', 'UA-7167813-4', 'auto');
   ga('send', 'pageview');
 
+  $(document).ready(function(){
+    $('.pub-download').on('click',function() {
+      ga('send','event','pub-download','click');
+    });
+  });
+
 </script>
