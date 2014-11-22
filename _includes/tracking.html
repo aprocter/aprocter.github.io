@@ -9,7 +9,7 @@
 
   $(document).ready(function(){
     $('.pub-download').on('click',function() {
-      ga('send','event','pub-download','click');
+      ga('send','event','publication','download-click',$(this).attr('href'));
     });
   });
 
