@@ -152,7 +152,7 @@
 @include media-query($on-palm) {
     .footer-col-1 {
         float: left;
-        margin-right: 15px;
+        margin-right: 10px;
         width: -webkit-calc(15% - (#{$spacing-unit} / 2));
         width:         calc(15% - (#{$spacing-unit} / 2));
     }
@@ -275,6 +275,7 @@
 }
 
 .bio-photo {
+  padding-top: 3px;
   width: 100%;
 }
 
