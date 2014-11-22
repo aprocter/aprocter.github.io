@@ -93,7 +93,7 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 0 $spacing-unit/2;
 }
 
 .footer-heading {
@@ -129,6 +129,10 @@
     width: -webkit-calc(80% - (#{$spacing-unit} / 2));
     width:         calc(80% - (#{$spacing-unit} / 2));
     text-align: justify;
+}
+
+@include media-query($on-palm) {
+    .footer-col-2 { text-align: left; }
 }
 
 /*
@@ -205,17 +209,20 @@
    > .pub-abstract {
      margin-left: 20pt;
      text-align: justify;
+     @include media-query($on-palm) { text-align: left; }
    }
 }
 
 .pub-bib {
      color: lighten($text-color,40%);
      text-align: justify;
+     @include media-query($on-palm) { text-align: left; }
 }
 
 .pub-abstract {
      text-align: justify;
-     margin-bottom: $spacing-unit;
+     @include media-query($on-palm) { text-align: left; }
+     margin-bottom: $spacing-unit * 0.4;
 }
 
 
@@ -264,6 +271,7 @@
     }
 
     text-align: justify;
+    @include media-query($on-palm) { text-align: left; }
 }
 
 .bio-photo {
@@ -284,6 +292,17 @@
 
 .post > .pub-abstract {
   margin-bottom: $spacing-unit;
+}
+
+.pub-content-separator {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $grey-color-light;
+  margin: 2em auto;
+  padding: 0;
+  text-align: center;
+  width: 70%;
 }
 
 .pub-downloads {

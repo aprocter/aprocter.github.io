@@ -13,12 +13,7 @@ layout: default
         </h2>
 
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        {% if post.content contains '<!--more-->' %}
-           {{ post.content | split:'<!--more-->' | first }}[<a href="{{ post.url | prepend: site.baseurl }}">more</a>]
-        {% else %}
-           {{ post.content }}
-        {% endif %}
+        {{ post.excerpt }}
       </li>
     {% endfor %}
   </ul>

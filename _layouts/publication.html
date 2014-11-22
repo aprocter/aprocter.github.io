@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
+  <header class="pub-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="pub-bib">{{ page.authors }}. {{ page.where }}.</p>
 
@@ -22,6 +22,7 @@ layout: default
     {% endif %}
   </header>
 
+  <hr class="pub-content-separator" />
   <article class="post-content">
     {{ content }}
   </article>

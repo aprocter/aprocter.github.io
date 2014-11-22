@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://adamprocter.com" # the base hostname & protocol for your site
 timezone: America/Chicago
+excerpt_separator: "<!--more-->"
 
 # Build settings
 markdown: kramdown
