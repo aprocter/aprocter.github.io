@@ -243,8 +243,12 @@
     }
 }
 
+.home {
+    margin-bottom: 0;
+}
+
 .post-content {
-    margin-bottom: $spacing-unit;
+    //margin-bottom: $spacing-unit;
 
     h2 {
         font-size: 32px;
@@ -270,8 +274,16 @@
         }
     }
 
+    :last-child {
+        margin-bottom: 0;
+    }
+
     text-align: justify;
     @include media-query($on-palm) { text-align: left; }
+}
+
+.pub-list, .pub-list :last-child {
+  margin-bottom: 0;
 }
 
 .bio-photo {
