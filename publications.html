@@ -6,7 +6,10 @@ permalink: /publications/
 
 <div class="home">
 
-  <h1 class="post-title">Publications</h1>
+  <div class="title-wrapper post-title">
+    Publications
+    <a class="rss-link rss-link-pubs" href="{{ "/feed-pubs.xml" | prepend: site.baseurl }}"><img src="{{ "/images/flat_web_icon_set/color/RSS.png" | prepend: site.baseurl }}"></a>
+  </div>
 
   <ul class="pub-list">
     {% for pub in site.publications reversed %}
@@ -17,9 +20,5 @@ permalink: /publications/
       </li>
     {% endfor %}
   </ul>
-
-   <ul class="share-buttons">
-      <li><a class="rss-link-pubs" href="{{ "/feed-pubs.xml" | prepend: site.baseurl }}"><img src="{{ "/images/flat_web_icon_set/color/RSS.png" | prepend: site.baseurl }}"></a></li>
-   </ul>
 
 </div>

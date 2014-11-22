@@ -286,7 +286,11 @@
   margin-bottom: 0;
 }
 
-.home, .home > :last-child {
+.home,
+.home > .post-list,
+.home > .post-list > :last-child,
+.home > .post-list > :last-child > :last-child
+{
   margin-bottom: 0;
 }
 
@@ -337,4 +341,19 @@
   //li:first-child:before {
   //  content: '';
   //}
+}
+
+.title-wrapper .post-title {
+  text-align: left;
+  float: left;
+}
+
+.title-wrapper .rss-link {
+  text-align: right;
+  float: right;
+}
+
+.title-wrapper {
+  display: block;
+  margin-bottom: $spacing-unit / 2;
 }

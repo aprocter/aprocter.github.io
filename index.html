@@ -4,6 +4,11 @@ layout: default
 
 <div class="home">
 
+  <div class="title-wrapper post-title">
+    Posts
+    <a class="rss-link rss-link-blog" href="{{ "/feed.xml" | prepend: site.baseurl }}"><img src="{{ "/images/flat_web_icon_set/color/RSS.png" | prepend: site.baseurl }}"></a>
+  </div>
+
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -17,9 +22,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-   <ul class="share-buttons">
-      <li><a class="rss-link-blog" href="{{ "/feed.xml" | prepend: site.baseurl }}"><img src="{{ "/images/flat_web_icon_set/color/RSS.png" | prepend: site.baseurl }}"></a></li>
-   </ul>
-
 </div>
