@@ -363,8 +363,9 @@
     margin-right: 1ex;
   }
   li:before {
-    content: '\d83d\dd17';
-    margin-right: 4px;
+    content: '\f0c1';
+    font-family: FontAwesome;
+    margin-right: 5px;
   }
   //li:first-child:before {
   //  content: '';
