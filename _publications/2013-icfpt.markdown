@@ -26,3 +26,6 @@ download-links:
 * [Fibonacci Sequence](Fibonacci.hs)
 * [Simple CPU](CPU.hs)
 * [PicoBlaze](PicoBlaze.hs)
+
+# Supplemental Material
+* [Poster](poster.pdf) presented at the conference
