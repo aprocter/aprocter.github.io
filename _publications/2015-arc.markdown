@@ -1,0 +1,25 @@
+---
+layout:  publication
+title:   "Hardware Synthesis from Functional Embedded Domain-Specific Languages: A Case Study in Regular Expression Compilation"
+date:    2015-04-15 08:00:00 +0100
+authors: "Ian Graves, Adam Procter, William L. Harrison, Michela Becchi, and Gerard Allwein"
+where:   "Accepted at the 11th International Symposium on Applied Reconfigurable Computing (ARC 2015), Bochum, Germany, April 13-17, 2015"
+abstract: >
+ Although FPGAs have the potential to bring software-like flexibility and
+ agility to the hardware world, designing for FPGAs remains a difficult task
+ divorced from standard software engineering norms. A better programming flow
+ would go far towards realizing the potential of widely deployed, programmable
+ hardware. We propose a general methodology based on domain specific languages
+ embedded in the functional language Haskell to bridge the gap between high
+ level abstractions that support programmer productivity and the need for high
+ performance in FPGA circuit implementations. We illustrate this methodology
+ with a framework for regular expression to hardware compilers, written in
+ Haskell, that supports high programmer productivity while producing circuits
+ whose performance matches and, indeed, exceeds that of a state of the art,
+ hand-optimized VHDL-based tool. For example, after applying a novel
+ optimization pass, throughput increased an average of 28.3% over the state
+ of the art tool for one set of benchmarks. All
+ <a href="http://goo.gl/efJ6SO">code discussed in the paper</a> is available
+ online.
+blank: true
+---
