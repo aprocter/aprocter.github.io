@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Semantics-directed Machine Architecture in ReWire"
-date:    2014-11-22 15:16:41 -0600
+date:    2013-12-09 08:00:00 +0900
 authors: "Adam Procter, William L. Harrison, Ian Graves, Michela Becchi, and Gerard Allwein"
 where: "Proceedings of the 2013 International Conference on Field-Programmable Technology (ICFPT'13), Kyoto, December 2013"
 permalink: /icfpt13/

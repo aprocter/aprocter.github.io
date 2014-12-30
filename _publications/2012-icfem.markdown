@@ -1,7 +1,7 @@
 ---
 layout:  publication
 title:   "The Confinement Problem in the Presence of Faults"
-date:    2014-11-22 15:16:41 -0600
+date:    2012-11-12 08:00:00 +0900
 authors: "William L. Harrison, Adam Procter, and Gerard Allwein"
 where:   "Proceedings of the 14th International Conference on Formal Engineering Methods (ICFEM'12), Kyoto, November 2012"
 abstract: >

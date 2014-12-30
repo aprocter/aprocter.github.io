@@ -12,7 +12,8 @@ permalink: /publications/
   </div>
 
   <ul class="pub-list">
-    {% for pub in site.publications reversed %}
+    {% assign sorted_pubs = (site.publications | sort: 'date') %}
+    {% for pub in sorted_pubs reversed %}
       <li class="pub-item">
         <h2 class="pub-title"><a class="pub-link" href="{{ pub.url | prepend: site.baseurl }}">{{ pub.title }}</a></h2>
         <h3 class="pub-bib"><span class="pub-authors">{{ pub.authors }}.</span> <span class="pub-where">{{ pub.where }}.</span></h3>
