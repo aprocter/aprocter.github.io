@@ -4,6 +4,7 @@ title:   "Semantics Driven Hardware Design, Implementation, and Verification wit
 date:    2015-06-18 08:00:00 -0700
 authors: "Adam Procter, William L. Harrison, Ian Graves, Michela Becchi, and Gerard Allwein"
 where:   "Accepted at the 2015 ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools and Theory for Embedded Systems (LCTES 2015), Portland, Oregon, June 18-19, 2015"
+permalink: /lctes15/
 abstract: >
  There is no such thing as high assurance without high assurance hardware. High
  assurance hardware is essential, because any and all high assurance systems
@@ -18,5 +19,10 @@ abstract: >
  the design of a secure multicore processor, demonstrating both ReWire's
  expressiveness as a programming language and its power as a framework for
  formal, high-level reasoning about hardware systems.
+download-links:
+ - text: ACM Authorizer Link
+   url: 'http://dl.acm.org/authorize?N98699'
+ - text: Proof Supplement
+   url: '/images/LCTES15 Proof Supplement.pdf'
 blank: true
 ---
