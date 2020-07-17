@@ -23,6 +23,8 @@
 % This is a helpful package that puts math inside length specifications
 \usepackage{calc}
 
+\usepackage{soul}
+
 % Simpler bibsection for CV sections
 % (thanks to natbib for inspiration)
 \makeatletter
@@ -193,7 +195,7 @@
 \begin{document}
 \makeheading{Adam Procter, Ph.D.}
 
-\section{Contact Information}
+\section{Contact}
 %
 % NOTE: Mind where the & separators and \\ breaks are in the following
 %       table.
@@ -201,165 +203,83 @@
 % ALSO: \rcollength is the width of the right column of the table
 %       (adjust it to your liking; default is 1.85in).
 %
-\newlength{\rcollength}\setlength{\rcollength}{2.1in}%
+\newlength{\rcollength}\setlength{\rcollength}{2.0in}%
 %
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
-\href{http://www.cs.missouri.edu/}%
-     {Department of Computer Science} & \\
-\href{http://www.missouri.edu/}{University of Missouri} & +1 573 819 2767 \\
-201 Engineering Building West & \href{mailto:adamprocter@mail.missouri.edu}{adamprocter@mail.missouri.edu}\\
-Columbia, MO  65211 USA       & \href{http://adamprocter.com/}{http://adamprocter.com}\\
+\href{mailto:adamprocter@mail.missouri.edu}{adamprocter@mail.missouri.edu} & \href{https://github.com/aprocter}{https://github.com/aprocter}\\
++1 573 819 2767 & \href{http://adamprocter.com/}{http://adamprocter.com}\\
 \end{tabular}
 
-%\section{Objective}
+%\section{Summary}
 %
 %To obtain a post-doctoral position in the academic, government, or private sector that draws on my demonstrated talent for cutting-edge research in programming languages, program verification, and information security.
 
-\section{Research Interests}
+\section{Summary}
 %
-Functional programming, semantics of programming languages, hardware synthesis from functional languages, hardware and software verification (especially for security), language-based security, model-driven implementation techniques for secure systems, computer-assisted theorem proving.
-
-\section{Education}
-%
-\textbf{\href{http://www.missouri.edu/}{University of Missouri}},
-Columbia, Missouri USA
-\begin{outerlist}
-
-\item[] Ph.D.,
-        \href{http://www.cs.missouri.edu/}
-             {Computer Science}, December 2014
-        \begin{innerlist}
-        \item Dissertation: {\em Semantics-Driven Design and Implementation of High-Assurance Hardware}
-        \item Advisor:
-              \href{http://www.missouri.edu/~harrisonwl/}
-                   {William L. Harrison}
-%        \item GPA: 3.96/4.00
-        \end{innerlist}
-
-\item[] B.A.,
-        \href{http://www.cs.missouri.edu/}
-             {Computer Science}, May 2005
-        \begin{innerlist}
-        \item Minor in \href{http://www.math.missouri.edu/}{Mathematics}
-        \item Graduated \emph{summa cum laude}
-%        \item GPA: 3.91/4.00
-        \end{innerlist}
-
-\end{outerlist}
-
-\section{Conference Publications} \begin{bibsection}
-    \item Ian Graves, Adam Procter, Wililam L. Harrison, Michela Becchi, and Gerard Allwein. Provably Correct Development of Reconfigurable Hardware Designs via Equational Reasoning.
-	\emph{Proceedings of the 2015 International Conference on Field-Programmable Technology (ICFPT'15)}, Queenstown, New Zealand, December 2015.
-
-    \item Adam Procter, William L. Harrison, Ian Graves, Michela Becchi, and Gerard Allwein. Semantics Driven Hardware Design, Implementation, and Verification with ReWire.
-        \emph{Proceedings of the 2015 ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools and Theories for Embedded Systems (LCTES'15)}, Portland, June 2015.
-
-    \item Ian Graves, Adam Procter, William L. Harrison, Michela Becchi, and Gerard Allwein. Hardware Synthesis from Functional Embedded Domain-Specific Languages: A Case Study in Regular Expression Compilation.
-        \emph{Proceedings of the 11th International Symposium on Applied Reconfigurable Computing (ARC'15)}, Bochum, April 2015.
-
-    \item Adam Procter, William L. Harrison, Ian Graves, Michela Becchi, and Gerard Allwein. Semantics-directed Machine Architecture in ReWire.
-        \emph{Proceedings of the 2013 International Conference on Field-Programmable Technology (ICFPT'13)}, Kyoto, December 2013.
-
-    \item William L. Harrison, Adam Procter, and Gerard Allwein. The Confinement Problem in the Presence of Faults.
-        \emph{Proceedings of the 14th International Conference on Formal Engineering Methods (ICFEM'12)}, Kyoto, November 2012.
-
-    \item Chris Hathhorn, Michela Becchi, William L. Harrison and Adam Procter. Formal semantics of heterogeneous CUDA-C: A modular approach with applications.
-        \emph{Proceedings of the 2012 Systems Software Verification Conference (SSV'12)}, Sydney, November 2012.
-
-    \item Adam Procter, William L. Harrison, and Aaron Stump. The Design of a Practical Theorem Prover for a Lazy Functional Language.
-        \emph{Proceedings of the 2012 Symposium on Trends in Functional Programming (TFP'12)}, St Andrews, UK, June 2012.
-
-\end{bibsection}
-\begin{bibsection}
-
-    \item Michela Becchi, Kittisak Sajjapongse, Ian Graves, Adam Procter, Vignesh Ravi, and Srimat Chakradhar.
-            A Virtual Memory Based Runtime to Support Multitenancy in Clusters with GPUs. \emph{Proceedings of the 21st International Symposium on High-Performance Parallel and Distributed Computing (HPDC'12)}, Delft, June 2012. {\bf (Best paper award!)}
-
-    \item William L. Harrison, Benjamin Schulz, Adam Procter, Andrew Lukefahr, and Gerard Allwein.
-        Towards Semantics-directed System Design and Synthesis. Invited
-        paper. \emph{Proceedings of the 2011 International Conference on Engineering of Reconfigurable Systems and Algorithms (ERSA'11)}, Las Vegas, July 2011.
-
-    \item William L. Harrison, Adam M. Procter, Jason Agron, Garrin Kimmell, and Gerard Allwein.
-        Model-driven Engineering from Modular Monadic Semantics: Implementation
-        Techniques Targeting Hardware and Software. \emph{Proceedings of the IFIP
-        Working Conference on Domain Specific Languages (DSLWC)}, Oxford, July 2009.
-
-    \item Pericles S. Kariotis, Adam M. Procter, and William L. Harrison. Making
-        Monads First-class with Template Haskell. \emph{Proceedings of the ACM
-        SIGPLAN 2008 Haskell Symposium (Haskell '08)}, Victoria, BC, Canada, September 2008.
-
-    \item William L. Harrison, Gerard Allwein, Andy Gill, and Adam Procter.
-        Asynchronous Exceptions as an Effect. \emph{Proceedings of the Ninth
-        International Conference on Mathematics of Program Construction (MPC'08)},
-        Marseille, July 2008.
-\end{bibsection}
-
-\section{Journal Publications} \begin{bibsection}
-    \item William L. Harrison and Adam M. Procter. Cheap (But Functional) Threads.
-        Submitted to \emph{Journal of Functional Programming},
-        draft available by request.
-\end{bibsection}
-
-\section{Professional Service}
-%
-\vspace{-1em}
-\begin{innerlist}
-\item External reviewer for IFL'11.
-\item Helped organize Midwest Verification Day 2014 in Columbia, MO.
-\end{innerlist}
-
-\section{Teaching Experience}
-%
-\textbf{\href{http://www.cs.missouri.edu/}{Department of Computer Science}, University of Missouri}
-\begin{innerlist}
-\item Instructor, Principles of Programming Languages, Fall 2010 and Fall 2012
-\item Teaching Assistant, Principles of Programming Languages, Fall 2009, Spring 2008, and Spring 2007
-\item Teaching Assistant, Production Languages (Programming in C), Fall 2007 and Fall 2006
-\item Instructor, Production Languages (Programming in C), Spring 2007
-\item Instructor, Algorithm Design and Programming I, Spring 2006
-\item Teaching Assistant, Algorithm Design and Programming I, Fall 2005
-\end{innerlist}
-
-\blankline
-
-\textbf{\href{http://japanesestudies.missouri.edu/}{Japanese Studies Program}, University of Missouri}
-\begin{innerlist}
-\item Instructor, Elementary Japanese II, Spring 2005
-\item Teaching Assistant, Elementary Japanese I, Fall 2004
-\end{innerlist}
-
-\blankline
-
-\textbf{\href{http://success.missouri.edu/tlc.html}{The Learning Center}, University of Missouri}
-\begin{innerlist}
-\item Tutor, Summer 2002---Spring 2004
-\end{innerlist}
+Experienced software engineer with a strong background in programming language and systems research and a proven track record of delivering solutions for highly demanding customers in the machine learning space. Interests include deep learning, compiler architecture, functional programming, semantics of programming languages, hardware synthesis from functional languages, model-driven implementation techniques for secure systems, and computer-assisted theorem proving.
 
 \section{Employment}
 %
-\textbf{\href{http://chaco.missouri.edu/}{Center for High Assurance Computing}, University of Missouri}
+\textbf{\href{https://groq.com/}{Groq, Inc.}}
 \begin{outerlist}
-\item[] \textit{Postdoctoral Fellow} \hfill November 2014---
+\item[] \textit{Compiler Engineer} \hfill October 2019---present
         \begin{innerlist}
-        \item Postdoctoral researcher at the \href{http://chaco.missouri.edu/}{Center for High Assurance Computing}.
-        \item Supervisor: Professor William L. Harrison.
+        \item Contributed to the development of front-end compiler infrastructure.
+        \item Revamped integration with popular deep learning frameworks, resulting in a greatly improved user experience.
+        \item Improved testing infrastructure and coverage for both front-end and back-end compiler components.
+        \item Developed core components of the low-level Groq runtime.
+        \item Drove roadmap discussions for the Groq software stack as part of rapid go-to-market efforts.
+        \item Formalized and documented coding and process standards for a growing software team.
         \end{innerlist}
 \end{outerlist}
 
 \blankline
 
-\textbf{\href{http://www.cs.missouri.edu/}{Department of Computer Science}, University of Missouri}
+\textbf{\href{https://www.intel.com/}{Intel Corporation}}
 \begin{outerlist}
-\item[] \textit{Graduate Research Assistant} \hfill June 2008---December 2010
+\item[] \textit{Deep Learning Software Engineer} \hfill September 2017---October 2019
         \begin{innerlist}
-        \item Research assistant at the \href{http://hask.cs.missouri.edu/}{High Assurance Security Kernel (HASK) Lab}, under Professor William L. Harrison.
+        \item Core software engineer for nGraph, an open-source compiler for deep learning models which supports many frameworks and hardware targets.
+        \item Defined semantics of core nGraph intermediate representation.
+        \item Designed and implemented most front-end APIs for graph construction, and many other parts of the compiler front-end.
+        \item Made major contributions to the nGraph-TensorFlow bridge, which allows TensorFlow models to run within the framework on nGraph-accelerated backends.
+        \item Advocated for a high standard of modularity, code quality, test-driven development, and correctness by construction.
+        \item Represented the nGraph project at major external forums including the NeurIPS Expo and the O'Reilly AI Conference.
+        \item Mentored numerous junior engineers contributing to the nGraph project.
         \end{innerlist}
+\item[] \textit{Machine Learning Engineer} \hfill June 2016---September 2017
+        \begin{innerlist}
+        \item Gathered extensive, detailed, replicable benchmarking results for numerous popular deep learning workloads on pre-launch next-generation Xeon processors, which formed a major part of marketing collateral at launch.
+        \item Developed detailed performance tuning recommendations for customers running deep learning training workloads on Intel Xeon and Xeon Phi-based clusters.
+        \item Assisted several customers with setup and performance tuning of deep learning training on Intel Xeon and Xeon Phi-based clusters.
+        \item Developed compelling demos of deep learning training performance for trade shows and various other public venues.
+        \item Contributed to the development of deep learning accelerator IP for FPGAs.
+        \end{innerlist}
+\end{outerlist}
 
+\blankline
+
+\textbf{\href{http://www.missouri.edu/}{University of Missouri}}
+\begin{outerlist}
+\item[] \textit{Postdoctoral Fellow} \hfill November 2014---May 2015
+        \begin{innerlist}
+        \item Postdoctoral researcher at the Center for High Assurance Computing.
+        \item Developed mechanized metatheory for ReWire, a purely functional language for provably secure hardware designs.
+        \item Research published in high-profile conferences and journals (LCTES, TECS).
+        \item Supervisor: Professor William L. Harrison.
+        \end{innerlist}
+\item[] \textit{GAANN Graduate Fellow} \hfill January 2011---November 2014\\
+        \textit{Graduate Research Assistant} \hfill June 2008---December 2010
+        \begin{innerlist}
+        \item Research assistant at the High Assurance Security Kernel (HASK) Lab, under Professor William L. Harrison.
+        \item Developed the ReWire compiler, which translates a subset of Haskell to synthesizable implementations of provably secure hardware.
+        \end{innerlist}
 \item[] \textit{Graduate Teaching Assistant} \hfill August 2005---May 2008\\
         \color{white}.\color{black}          \hfill August 2009---December 2009\\
         \color{white}.\color{black}          \hfill August 2010---December 2010
         \begin{innerlist}
         \item Served as instructor or teaching assistant for several diferent computer science courses.
+        \item Courses taught include Problem Solving and Programming I (CS 101), Compilers, and Principles of Programming Languages.
         \item Duties ranged from grading and holding office hours to teaching a large lecture course and supervising four teaching assistants.
         \end{innerlist}
 \end{outerlist}
@@ -374,82 +294,220 @@ Columbia, Missouri USA
         \end{innerlist}
 \end{outerlist}
 
-\blankline
+%% \blankline
 
-\textbf{\href{http://www.biology.missouri.edu/}{Division of Biological Sciences}, University of Missouri}
-\begin{outerlist}
-\item[] \textit{Computer Programmer} \hfill June 2006---May 2009
-        \begin{innerlist}
-        \item Developed a LabVIEW-based application to play back aural stimuli to insects in support of behavioral and neurological experiments.
-        \end{innerlist}
-\end{outerlist}
+%% \textbf{\href{http://www.biology.missouri.edu/}{Division of Biological Sciences}, University of Missouri}
+%% \begin{outerlist}
+%% \item[] \textit{Computer Programmer} \hfill June 2006---May 2009
+%%         \begin{innerlist}
+%%         \item Developed a LabVIEW-based application to play back aural stimuli to insects in support of behavioral and neurological experiments.
+%%         \end{innerlist}
+%% \end{outerlist}
 
-\blankline
+%% \blankline
 
-\textbf{\href{http://japanesestudies.missouri.edu/}{Japanese Studies Program}, University of Missouri}
-\begin{outerlist}
-\item[] \textit{Peer Learning Assistant} \hfill August 2004---May 2005
-        \begin{innerlist}
-        \item Served as co-instructor for Elementary Japanese II in Spring 2005.
-        \item Conducted two weekly lab sessions for Elementary Japanese I in Fall 2004.
-        \end{innerlist}
-\end{outerlist}
+%% \textbf{\href{http://japanesestudies.missouri.edu/}{Japanese Studies Program}, University of Missouri}
+%% \begin{outerlist}
+%% \item[] \textit{Peer Learning Assistant} \hfill August 2004---May 2005
+%%         \begin{innerlist}
+%%         \item Served as co-instructor for Elementary Japanese II in Spring 2005.
+%%         \item Conducted two weekly lab sessions for Elementary Japanese I in Fall 2004.
+%%         \end{innerlist}
+%% \end{outerlist}
 
-\blankline
+%% \blankline
 
-\textbf{\href{http://success.missouri.edu/tlc.html}{The Learning Center}, University of Missouri}
-\begin{outerlist}
-\item[] \textit{Tutor} \hfill June 2002---May 2004
-        \begin{innerlist}
-        \item Tutored individual students in computer science and elementary Japanese.
-        \item Held group tutoring sessions in computer science.
-        \end{innerlist}
-\end{outerlist}
+%% \textbf{\href{http://success.missouri.edu/tlc.html}{The Learning Center}, University of Missouri}
+%% \begin{outerlist}
+%% \item[] \textit{Tutor} \hfill June 2002---May 2004
+%%         \begin{innerlist}
+%%         \item Tutored individual students in computer science and elementary Japanese.
+%%         \item Held group tutoring sessions in computer science.
+%%         \end{innerlist}
+%% \end{outerlist}
 
-\section{Honors and Awards}
+\section{Education}
 %
-Fellowships and Scholarships
-\begin{innerlist}
-\item Graduate Assistance in Areas of National Need (GAANN) Fellowship, 2011---2014
-\item Gilliom Graduate Fellowship in Cyber Security, 2007---2009
-\item State of Missouri Bright Flight Scholarship, 2000---2005
-\end{innerlist}
+\textbf{\href{http://www.missouri.edu/}{University of Missouri}},
+Columbia, Missouri USA
+\begin{outerlist}
 
-\blankline
+\item[] Ph.D.,
+        \href{http://www.cs.missouri.edu/}
+             {Computer Science}, December 2014. Advisor: William L. Harrison.
+        \begin{innerlist}
+        \item Dissertation: {\em Semantics-Driven Design and Implementation of High-Assurance Hardware}
+%        \item Advisor: William L. Harrison}
+%        \item GPA: 3.96/4.00
+        \end{innerlist}
 
-Honors
-\begin{innerlist}
-\item Honorary student marshal, University of Missouri College of Arts and Science commencement ceremony, May 2005
-\item University of Missouri College of Arts and Science dean's list every semester, Fall 2000---Spring 2005
-\item Phi Beta Kappa (junior-year inductee, 2003)
-\end{innerlist}
+\item[] B.A.,
+        \href{http://www.cs.missouri.edu/}
+             {Computer Science}, \emph{summa cum laude}, minor in \href{http://www.math.missouri.edu/}{Mathematics}, May 2005.
+%%         \begin{innerlist}
+%%         \item Minor in 
+%%         \item Graduated \emph{summa cum laude}
+%% %        \item GPA: 3.91/4.00
+%%         \end{innerlist}
 
-\section{Technical Skills}
+\end{outerlist}
+
+\section{Publications}
 %
-Programming Languages
+\begin{bibsection}
+    \item Thomas N. Reynolds, Adam Procter, William L. Harrison, and Gerard Allwein. \ul{The Mechanized Marriage of Effects and Monads with Applications to High-assurance Hardware.}
+        \emph{ACM Transactions on Embedded Computing Systems (TECS) - Special Issue on MEMOCODE 2017 and Regular Papers}, volume 18, issue 1, February 2019.
+  
+    \item Scott Cyphers, Arjun K. Bansal, Anahita Bhiwandiwalla, Jayaram Bobba, Matthew Brookhart, Avijit Chakraborty, Will Constable, Christian Convey, Leona Cook, Omar Kanawi, Robert Kimball, Jason Knight, Nikolay Korovaiko, Varun Kumar, Yixing Lao, Christopher R. Lishka, Jaikrishnan Menon, Jennifer Myers, Sandeep Aswath Narayana, Adam Procter, and Tristan J. Webb. \ul{Intel nGraph: An Intermediate Representation, Compiler, and Executor for Deep Learning.}
+        \emph{SysML Conference 2018}, February 2018. \href{https://arxiv.org/abs/1801.08058}{https://arxiv.org/abs/1801.08058}
+
+    \item Yuankun Shi, Kevin Long, Kaushik Balasubramanian, Bianny Bian, Adam Procter, and Ramesh Illikkal.
+        \ul{DeepSim: Cluster Level Behavioral Simulation Model for Deep Learning.}
+        \emph{2017 IEEE 15th Intl Conf on Dependable, Autonomic and Secure Computing, 15th Intl Conf on Pervasive Intelligence and Computing, 3rd Intl Conf on Big Data Intelligence and Computing and Cyber Science and Technology Congress(DASC/PiCom/DataCom/CyberSciTech)}, November 2017.
+
+    \item Thomas N. Reynolds, Adam Procter, William L. Harrison, and Gerard Allwein. \ul{A core calculus for secure hardware: its formal semantics and proof system.}
+        \emph{Proceedings of the 15th ACM-IEEE International Conference on Formal Methods and Models for System Design (MEMOCODE'17)}, September 2017.
+
+    \item Adam Procter, William L. Harrison, Ian Graves, Michela Becchi, and Gerard Allwein. \ul{A Principled Approach to Secure Multi-core Processor Design with ReWire.}
+        \emph{ACM Transactions on Embedded Computing Systems (TECS) - Special Issue on LCTES 2015, Special Issue on ACSD 2015 and Special Issue on Embedded Devise Forensics and Security}, volume 16, issue 2, April 2017.
+
+    \item William L. Harrison, Adam Procter, and Gerard Allwein. \ul{Model-driven design \& synthesis of the SHA-256 cryptographic hash function in ReWire.}
+        \emph{Proceedings of the 27th International Symposium on Rapid System Prototyping: Shortening the Path from Specification to Prototype (RSP'16)}, October 2016.
+
+    \item Ian Graves, Adam Procter, Wililam L. Harrison, Michela Becchi, and Gerard Allwein. \ul{Provably Correct Development of Reconfigurable Hardware Designs via Equational Reasoning.}
+	\emph{Proceedings of the 2015 International Conference on Field-Programmable Technology (ICFPT'15)}, Queenstown, New Zealand, December 2015.
+
+    \item Adam Procter, William L. Harrison, Ian Graves, Michela Becchi, and Gerard Allwein. \ul{Semantics Driven Hardware Design, Implementation, and Verification with ReWire.}
+        \emph{Proceedings of the 2015 ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools and Theories for Embedded Systems (LCTES'15)}, Portland, June 2015.
+
+    \item Ian Graves, Adam Procter, William L. Harrison, Michela Becchi, and Gerard Allwein. \ul{Hardware Synthesis from Functional Embedded Domain-Specific Languages: A Case Study in Regular Expression Compilation.}
+        \emph{Proceedings of the 11th International Symposium on Applied Reconfigurable Computing (ARC'15)}, Bochum, April 2015.
+
+    \item Adam Procter, William L. Harrison, Ian Graves, Michela Becchi, and Gerard Allwein. \ul{Semantics-directed Machine Architecture in ReWire.}
+        \emph{Proceedings of the 2013 International Conference on Field-Programmable Technology (ICFPT'13)}, Kyoto, December 2013.
+
+\end{bibsection}
+
+\section{Publications cont'd}
+%
+\begin{bibsection}
+
+    \item William L. Harrison, Adam Procter, and Gerard Allwein. \ul{The Confinement Problem in the Presence of Faults.}
+        \emph{Proceedings of the 14th International Conference on Formal Engineering Methods (ICFEM'12)}, Kyoto, November 2012.
+
+    \item Chris Hathhorn, Michela Becchi, William L. Harrison and Adam Procter. \ul{Formal semantics of heterogeneous CUDA-C: A modular approach with applications.}
+        \emph{Proceedings of the 2012 Systems Software Verification Conference (SSV'12)}, Sydney, November 2012.
+
+    \item Adam Procter, William L. Harrison, and Aaron Stump. \ul{The Design of a Practical Theorem Prover for a Lazy Functional Language.}
+        \emph{Proceedings of the 2012 Symposium on Trends in Functional Programming (TFP'12)}, St Andrews, UK, June 2012.
+
+    \item Michela Becchi, Kittisak Sajjapongse, Ian Graves, Adam Procter, Vignesh Ravi, and Srimat Chakradhar.
+            \ul{A Virtual Memory Based Runtime to Support Multitenancy in Clusters with GPUs.} \emph{Proceedings of the 21st International Symposium on High-Performance Parallel and Distributed Computing (HPDC'12)}, Delft, June 2012. {\bf (Best paper award!)}
+
+    \item William L. Harrison, Benjamin Schulz, Adam Procter, Andrew Lukefahr, and Gerard Allwein.
+        \ul{Towards Semantics-directed System Design and Synthesis.} Invited
+        paper. \emph{Proceedings of the 2011 International Conference on Engineering of Reconfigurable Systems and Algorithms (ERSA'11)}, Las Vegas, July 2011.
+
+    \item William L. Harrison, Adam M. Procter, Jason Agron, Garrin Kimmell, and Gerard Allwein.
+        \ul{Model-driven Engineering from Modular Monadic Semantics: Implementation
+        Techniques Targeting Hardware and Software.} \emph{Proceedings of the IFIP
+        Working Conference on Domain Specific Languages (DSLWC)}, Oxford, July 2009.
+
+    \item Pericles S. Kariotis, Adam M. Procter, and William L. Harrison. \ul{Making
+        Monads First-class with Template Haskell.} \emph{Proceedings of the ACM
+        SIGPLAN 2008 Haskell Symposium (Haskell '08)}, Victoria, BC, Canada, September 2008.
+
+    \item William L. Harrison, Gerard Allwein, Andy Gill, and Adam Procter.
+        \ul{Asynchronous Exceptions as an Effect.} \emph{Proceedings of the Ninth
+        International Conference on Mathematics of Program Construction (MPC'08)},
+        Marseille, July 2008.
+\end{bibsection}
+
+\section{Presentations}
+%
+\begin{bibsection}
+    \item Adam Procter.
+      \ul{nGraph: Unlocking Next-generation Performance with Deep Learning Compilers.} Intel AI Developer Webinar Series, August 2019.
+
+    \item Adam Procter, Adam Straw, and Robert Earhart.
+      \ul{nGraph: Unlocking next-generation performance with deep learning compilers.} O'Reilly Artificial Intelligence Conference, New York, April 2019.
+
+    \item Adam Procter, Adam Straw, and Robert Earhart.
+      \ul{Intel nGraph: Unlocking Next-Generation Performance with Deep Learning Compilers.} NeurIPS Expo, December 2018.
+\end{bibsection}
+
+\section{Professional Service}
+%
+\vspace{-1em}
 \begin{innerlist}
-\item Haskell, ML, Coq, C, Java, Perl, UNIX shell scripting, Python, Ruby, PHP, JavaScript, Visual Basic, LabVIEW
+\item External reviewer for IFL'11.
+\item Helped organize Midwest Verification Day 2014 in Columbia, MO.
+\end{innerlist}
+
+%% \section{Teaching Experience}
+%% %
+%% \textbf{\href{http://www.cs.missouri.edu/}{Department of Computer Science}, University of Missouri}
+%% \begin{innerlist}
+%% \item Instructor, Principles of Programming Languages, Fall 2010 and Fall 2012
+%% \item Teaching Assistant, Principles of Programming Languages, Fall 2009, Spring 2008, and Spring 2007
+%% \item Teaching Assistant, Production Languages (Programming in C), Fall 2007 and Fall 2006
+%% \item Instructor, Production Languages (Programming in C), Spring 2007
+%% \item Instructor, Algorithm Design and Programming I, Spring 2006
+%% \item Teaching Assistant, Algorithm Design and Programming I, Fall 2005
+%% \end{innerlist}
+
+%% \blankline
+
+%% \textbf{\href{http://japanesestudies.missouri.edu/}{Japanese Studies Program}, University of Missouri}
+%% \begin{innerlist}
+%% \item Instructor, Elementary Japanese II, Spring 2005
+%% \item Teaching Assistant, Elementary Japanese I, Fall 2004
+%% \end{innerlist}
+
+%% \blankline
+
+%% \textbf{\href{http://success.missouri.edu/tlc.html}{The Learning Center}, University of Missouri}
+%% \begin{innerlist}
+%% \item Tutor, Summer 2002---Spring 2004
+%% \end{innerlist}
+
+%% \section{Honors and Awards}
+%% %
+%% Fellowships and Scholarships
+%% \begin{innerlist}
+%% \item Graduate Assistance in Areas of National Need (GAANN) Fellowship, 2011---2014
+%% \item Gilliom Graduate Fellowship in Cyber Security, 2007---2009
+%% \item State of Missouri Bright Flight Scholarship, 2000---2005
+%% \end{innerlist}
+
+%% \blankline
+
+%% Honors
+%% \begin{innerlist}
+%% \item Honorary student marshal, University of Missouri College of Arts and Science commencement ceremony, May 2005
+%% \item University of Missouri College of Arts and Science dean's list every semester, Fall 2000---Spring 2005
+%% \item Phi Beta Kappa (junior-year inductee, 2003)
+%% \end{innerlist}
+
+\section{Technical \,\,\,\,Skills}
+%
+Languages
+\begin{innerlist}
+\item C++, C, Haskell, Standard ML, Coq, Python, Java, JavaScript, HTML/CSS, PHP, Perl, UNIX shell scripting.
 \end{innerlist}
 
 \blankline
 
-Hardware Description Languages
+Machine Learning Frameworks
 \begin{innerlist}
-\item VHDL
+\item TensorFlow, Caffe, PaddlePaddle.
 \end{innerlist}
 
 \blankline
 
-Operating Systems
+Methodologies
 \begin{innerlist}
-\item UNIX/Linux, Microsoft Windows, Mac OS X
-\end{innerlist}
-
-\blankline
-
-Other
-\begin{innerlist}
-\item HTML, CSS, SQL, MySQL and Oracle databases, Linux system administration
+\item Agile development, test-driven development.
 \end{innerlist}
 
 %\section{Activities and Volunteer Work}
@@ -468,9 +526,9 @@ Japanese (read, write, and speak at a high intermediate to advanced level)
 
 German (once intermediate, now quite rusty)
 
-\section{References}
+%\section{References}
 %
-Available upon request.
+%Available upon request.
 
 \end{document}
 
